@@ -1,0 +1,91 @@
+﻿Economic Indicators
+
+
+
+
+Real GDP
+GDP per capita
+——————————
+
+
+
+
+Essential economic Indicators:
+
+
+1. Economic Growth —> GDP
+   GDP = C+ I + G + (X-M)
+  C: personal consumption   I : Investment
+  G: Govt spending  X: Export  M: Imports Nominal GDP growth% - Inflation% = Real GDP growth%
+
+
+ 2. Inflation 
+2 sources of Inflation data  PCE: Personal Consumption Expenditure report CPI : Consumer price Index
+
+
+
+
+3. Unemployment
+
+
+  Increase in unemployment depresses GDP numbers  Main indicator: Nonfarm payrolls
+
+
+
+
+4. Business Confidence PMI: Purchasing Managers index 
+5. Housing: housing starts.   Monitoring GDP:    
+
+
+Credit risk:
+Factors affecting Bonds for a country
+Debt/GDP: higher debt causes a drag on GDP and on the economy
+Budget Deficit/GDP:  Repayment Schedule
+
+
+Credit Risk Indicators:
+Credit Ratings:
+Credit Default Swaps:
+
+
+Macroeconomics:
+Short term interest rates: Inflation:
+
+
+Inflation Indicators:
+GDP deflator:
+CPI:
+Core personal consumer expenditure: 
+Treasury Inflation Protected Securities (US bond based on CPI):  
+Output Gap:  Gap between the expected GDP vs the real measured GDP
+
+
+————
+
+
+Movement in Yield Curve:
+
+
+Long term yield: Influenced by  - Interest rate forecast
+- Long term GDP growth estimate
+- Demographics
+- demand for long term borrowing
+- supply of long term lending
+- Inflation expectations — negative effect on long term interest rates
+
+
+Premium    : Difference in yield between 10 yr bonds and 3 month bonds.. When the premium is negative - yield curve is inverted- an omen for deflation
+
+
+
+
+ 
+Currency:
+
+
+Yield Differential: Cur with higher interest rate yield attracts greater currency inflow  Bond yield differential: Difference between 2/10 year bond yield between 2 countries
+What affects Currency valuation: Changes in Interest rate, Inflation, Trade
+
+
+Relative Interest rates (cost of carry) Economic growth Inflation Employment Budget surpluses/Deficits
+Current account surpluses/Deficits
