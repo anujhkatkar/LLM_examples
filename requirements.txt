@@ -20,3 +20,4 @@ langchain
 astrapy
 fitz
 frontend
+uuid
