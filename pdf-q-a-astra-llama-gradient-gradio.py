@@ -1,18 +1,8 @@
 #!/usr/bin/env python
-# coding: utf-8
 
-# ## Chat with your PDF files using LlamaIndex, Astra DB (Apache Cassandra), and Gradient's open-source models, including LLama2 and Streamlit, all designed for seamless interaction with PDF files.
-# 
+## Original source from this youtube
 # [**Link to my YouTube Channel**](https://www.youtube.com/BhaveshBhatt8791?sub_confirmation=1)
 # 
-# Click on the link below to open a Colab version of the notebook. You will be able to create your own version.
-
-# <a href="https://colab.research.google.com/github/bhattbhavesh91//pdf-q-a-llamaindex-llama2/blob/main/pdf-q-a-notebook.ipynb" target="_blank"><img height="40" alt="Run your own notebook in Colab" src = "https://colab.research.google.com/assets/colab-badge.svg"></a>
-
-# # Installation
-
-# In[163]:
-
 
 
 ##!pip install -q cassandra-driver
@@ -28,11 +18,6 @@
 ##!pip install astrapy json transformers torch uuid
 
 
-# # Import OS & JSON Modules
-
-# In[164]:
-
-
 import os
 import json
 import pathlib
@@ -46,28 +31,20 @@ os.environ['GRADIENT_WORKSPACE_ID'] = os.getenv("GRADIENT_WORKSPACE_ID")
 
 # # Import Cassandra & llama Index
 
-# In[165]:
-
-
 from cassandra.auth import PlainTextAuthProvider
 from cassandra.cluster import Cluster
-from llama_index.core import ServiceContext, load_index_from_storage
+from llama_index.core import ServiceContext
 from llama_index.core import set_global_service_context
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageContext
 
 import gradio as gr
 
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 from astrapy.db import AstraDB
-from transformers import AutoModel
 import uuid
 import textwrap
 from difflib import Differ
 import fitz
-
-
-# In[166]:
 
 
 from llama_index.embeddings.gradient.base import  GradientEmbedding
@@ -187,8 +164,6 @@ set_global_service_context(service_context)
 ##                                        service_context=service_context)
 ##query_engine = index.as_query_engine()
 
-
-# In[188]:
 
 
 ## 
